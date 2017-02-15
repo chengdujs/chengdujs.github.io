@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>成都前端交流群 - 206731784</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="成都前端交流群是成都地区浏览量最大的中文前端门户网站，是由成都前端从业人员发起，为成都数以万计的互联网用户提供富有创意的前端新生活。">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="成都前端交流群 - 206731784">
+    <meta property="og:url" content="http://yoursite.com/index.html">
+    <meta property="og:site_name" content="成都前端交流群 - 206731784">
+    <meta property="og:description" content="成都前端交流群是成都地区浏览量最大的中文前端门户网站，是由成都前端从业人员发起，为成都数以万计的互联网用户提供富有创意的前端新生活。">
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css"/>
+</head>
+<body>
+<div id="wrap">
+    <header id="header">
+        <div id="header-outer" class="outer">
+            <div class="container">
+                <div class="container-inner">
+                    <div id="header-title">
+                        <h1 class="logo-wrap">
+                            成都前端交流群-206731784
+                        </h1>
+                    </div>
+                    <div id="header-inner" class="nav-container">
+                        <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                        <div class="nav-container-inner">
+                            <ul id="main-nav">
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">首页</a>
+                                </li>
+                                <li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/开源项目/">开源项目</a></li>
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link current" href="/about/index.html">英雄榜</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-body container-inner">
+            <div class="main-body-inner">
+                <section id="main">
+                    <div class="main-body-header">
+                        <h1 class="header">
+                            <em class="page-title-link" data-url="home" title="江湖人称：成都英雄榜">成都英雄榜</em>
+                        </h1>
+                    </div>
+                    <div class="main-body-content">
+                        <section class="archives-wrap">
+                            <div class="archive-year-wrap">
+                                <a href="javascript:;" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
+                            </div>
+                            <div class="archives">
+                                <div class="article-row">
+                                    <article class="article article-summary">
+                                        <div class="article-summary-inner">
+                                            <ol id="user-list" class="user-list clearfix" >
+                                                <li v-for="(item, index) in userInfo">
+                                                    <div class="user-title"><h2><em class="no" v-text="index+1">.</em><a :href="item.blog" target="_blank" v-text="item.name"></a></h2></div>
+                                                    <div class="userinfo-content">
+                                                        <a class="userinfo-img" :href="item.blog" target="_blank"><img :src="item.avatar" alt=""></a>
+                                                        <div class="desc">
+                                                            <dl class="desc-info">
+                                                                <dd><a :href="item.blog" target="_blank">博客</a></dd>
+                                                                <dd><a :href="item.github" target="_blank">Github</a></dd>
+                                                                <dd><a :href="item.website" target="_blank">个人站点</a></dd>
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                    <div class="useinfo-word"><p class="sub" :title="item.word" v-text="item.word"></p></div>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="container-inner">
+                <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+                <div class="credit">
+                    <h1 class="logo-wrap">
+                        成都前端交流群-206731784
+                    </h1>
+                    <p>&copy; 2017 豪情</p>
+                    <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+    <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+    <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+    <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+    <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+    <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+    <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+    <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+    <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="js/vue.min.js"></script>
+    <script src="js/about.js"></script>
+</div>
+</body>
+</html>
