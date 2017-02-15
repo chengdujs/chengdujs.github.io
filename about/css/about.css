@@ -12,3 +12,5 @@
 .desc-info{ text-align:left; padding-left:15px; font-size:16px;}
 .user-list .desc{ vertical-align:top;}
 .userinfo-img,.userinfo-content .desc{ display:inline-block;}
+.article-summary{ overflow:hidden;}
+.article-duoshuo{ padding:30px;}
