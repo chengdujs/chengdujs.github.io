@@ -76,7 +76,7 @@
   border-bottom: 1px dotted;
 }
 .widget ul,
-.article-entry ul,
+  .article-entry ul,
 .widget ol,
 .article-entry ol,
 .widget dl,
@@ -98,7 +98,8 @@
 .widget ul,
 .article-entry ul {
   list-style: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  padding-left:20px;
 }
 .widget ol,
 .article-entry ol {
