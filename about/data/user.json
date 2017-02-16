@@ -209,7 +209,7 @@
     "avatar": "https://avatars0.githubusercontent.com/u/12033282?v=3&s=400"
   },
   {
-    "id": "21",
+    "id": "22",
     "username": "fridolph",
     "name": "七日之书",
     "blog": "http://www.zhouxingxing.xin",
@@ -217,5 +217,25 @@
     "website": "http://www.zhouxingxing.xin",
     "word": "神说，要有光",
     "avatar": "https://avatars1.githubusercontent.com/u/23316671?v=3&s=400"
-  }
+  },
+  {
+    "id": "23",
+    "username": "tutu2016",
+    "name": "兔子",
+    "blog": "http://www.cnblogs.com/webQdesign/ ",
+    "github": "https://github.com/tutu2016 githib",
+    "website": "http://www.nid5.cn/",
+    "word": "不积跬步,无以至千里;",
+    "avatar": "https://avatars3.githubusercontent.com/u/20551383?v=3&s=460"
+  },
+  {
+    "id": "24",
+    "username": "zwjtheone",
+    "name": "zwjay",
+    "blog": "http://www.zwjay.cn",
+    "github": "https://github.com/zwj47",
+    "website": "http://www.zwjay.cn,
+    "word": "凡悟道，必踩坑。",
+    "avatar": "https://avatars3.githubusercontent.com/u/16760630?v=3&s=400"
+    }
 ]
