@@ -11,18 +11,52 @@ categories: 开源消息
 ### 任务列表
 
 - 【求职】搜索结果列表页面展现
+  - 用户期望一个完整的搜索过程，达到能够顺利投递简历的过程。
+  ![](https://striker.teambition.net/thumbnail/110p05b30f8015ff5d20668841c93238d531/w/600/h/1068)
 - 【招聘】招聘列表
+  - 作为HR能够方便的管理已发布的职业和已下线的职位列表。
+  - 前置条件：从HR个人中心：职业管理中进入。
+  ![](https://striker.teambition.net/thumbnail/110pe94ebd3f72494fd7edefba6ee8e0e9d6/w/600/h/1068)
 - 【招聘】企业HR的个人中心
+  - 做为企业HR有一个方便管理自己职位、公司信息、资质等等信息的地方。
+  - 与普通用户的个人中心相似，但互斥，一个人登录进来只有一个角色。
+  ![](https://striker.teambition.net/thumbnail/110p83390d7c1180c9cb7ee2aa1e6b534dda/w/600/h/1068)
 - 【招聘】公司信息添加页面
+  ![](https://striker.teambition.net/thumbnail/110p4b7960d9d86155f8f4cad6ef8f7f54f8/w/600/h/1092)
 - 【招聘】公司信息添加页面
+  - 作为HR希望能够修改公司相关信息的页面。
+  - 前置条件：
+  - 从HR个人中心中进入。
+  - 后置条件：
+  - 保存之后返回HR个人中心。
+  ![](https://striker.teambition.net/thumbnail/110p4b7960d9d86155f8f4cad6ef8f7f54f8/w/600/h/1092)
 - 【个人中心】个人资料维护
+  - 作为用户能够设置自己相关资料页面，包括昵称，性别等。
+  - 前置条件为：个人中心-> 右上角 资料维护，
+  - 点击保存之后返回个人中心。
+  ![](https://striker.teambition.net/thumbnail/110pa3c7fbe422b43aad134fd0c74ad571c9/w/600/h/1068)
 - 【个人中心】个人信息预览页面
+  - 作为个人用户能够预览简历的页面。
+  - 前置条件：
+  - 个人中心 -> 简历菜单。
+  - 点击修改简历进入修改简历的页面。
+  ![](https://striker.teambition.net/thumbnail/110pb77b15acf3fca87ce7fe6d75f46081e9/w/600/h/1939)
 - 【招聘】作为企业HR能够下线职位
+  ![](https://striker.teambition.net/thumbnail/110p0e6cd9227fba5e050edd129305af62ac/w/600/h/1068)
 - 【招聘】作为企业HR能够修改职位
+  ![](https://striker.teambition.net/thumbnail/110pe22d08f2cf230845037fc821c7751735/w/600/h/1068)
 - 【招聘】作为企业HR能够发布职位
+  ![](https://striker.teambition.net/thumbnail/110p37ae0eb0a7cfd0631c98b1b858222964/w/600/h/1068)
 - 【全局】input-line组件
 - 【招聘】公司信息页面修改
+  - 公司信息页面可以被修改。
+  - 页面表单中有值，且可以被修改。
+  ![](https://striker.teambition.net/thumbnail/110pcd17a1c6d1dbea087d83f7fde49ee2e5/w/600/h/1092)
 - 【个人中心】收藏页面
+  - 作为用户能够收藏比较中心的公司，能够在合适的机会进行投递。
+  - 前置条件：
+  - 企业详情页面有收藏按钮，点击提示收藏成功之后有入口。
+  ![](https://striker.teambition.net/thumbnail/110p2d400bd35ab8e780227c1a81fa6a8f95/w/600/h/758)
 
 完成的任务在线预览地址：[http://chengdujs.com/cd-it-job/](http://chengdujs.com/cd-it-job/)
 
